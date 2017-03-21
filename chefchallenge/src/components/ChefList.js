@@ -1,6 +1,6 @@
 'use strict';
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 import axios from 'axios';
 import ChefDetail from './ChefDetail';
 
@@ -21,9 +21,9 @@ class ChefList extends Component {
   render () {
     console.log(this.state);
     return (
-      <View>
+      <ScrollView>
         {this.renderChefs()}
-      </View>
+      </ScrollView>
 
     );
   }

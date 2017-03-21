@@ -17,7 +17,7 @@ import {
 
 
 const App = () => (
-  <View>
+  <View style={{ flex: 1}}>
     <Header headerText={'Chef Challenge For Children'} />
     <ChefList />
   </View>
