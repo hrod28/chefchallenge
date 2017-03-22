@@ -27,6 +27,11 @@ const styles = {
   },
   textStyle: {
     fontSize: 20
+  },
+  imageStyle: {
+    height: 300,
+    flex: 1,
+    width: null
   }
 };
 
